@@ -1,0 +1,27 @@
+"C:\Program Files\JetBrains\CLion 2021.3.3\bin\cmake\win\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - MinGW Makefiles" "C:\Users\ctawa\OneDrive\Documents\Freshman Year\Winter Quarter\CompSci 211\final_project 1"
+-- The CXX compiler identification is GNU 6.3.0
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: C:/MinGW/bin/g++.exe - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Using vendored Catch2 library (C:/Users/ctawa/OneDrive/Documents/Freshman Year/Winter Quarter/CompSci 211/final_project 1/.cs211/lib/catch)
+-- Using vendored Ge211 library (C:/Users/ctawa/OneDrive/Documents/Freshman Year/Winter Quarter/CompSci 211/final_project 1/.cs211/lib/ge211)
+-- Looking for C++ include pthread.h
+-- Looking for C++ include pthread.h - not found
+-- Found Threads: TRUE  
+CMake Error at C:/Program Files/JetBrains/CLion 2021.3.3/bin/cmake/win/share/cmake-3.21/Modules/FindPackageHandleStandardArgs.cmake:230 (message):
+  Could NOT find SDL2 (missing: SDL2_LIBRARIES SDL2_INCLUDE_DIRS)
+Call Stack (most recent call first):
+  C:/Program Files/JetBrains/CLion 2021.3.3/bin/cmake/win/share/cmake-3.21/Modules/FindPackageHandleStandardArgs.cmake:594 (_FPHSA_FAILURE_MESSAGE)
+  .cs211/lib/ge211/cmake/FindSDL2.cmake:204 (find_package_handle_standard_args)
+  .cs211/lib/ge211/CMakeLists.txt:29 (find_package)
+
+
+-- Configuring incomplete, errors occurred!
+See also "C:/Users/ctawa/OneDrive/Documents/Freshman Year/Winter Quarter/CompSci 211/final_project 1/cmake-build-debug/CMakeFiles/CMakeOutput.log".
+See also "C:/Users/ctawa/OneDrive/Documents/Freshman Year/Winter Quarter/CompSci 211/final_project 1/cmake-build-debug/CMakeFiles/CMakeError.log".
+
+Problems were encountered while collecting compiler information:
+	g++.exe: error: unrecognized command line option '-Wcast-align=strict'; did you mean '-Wcast-align'?
+	g++.exe: error: unrecognized command line option '-Wdangling-else'
